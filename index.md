@@ -3,8 +3,9 @@ layout: default
 title: Home
 ---
 
-Hi there and thank you for visiting my little spot on the internet!
-My name is **Aditya Sathish** and I am researcher and engineer (among other things).
+Hi there and thank you for visiting my little spot on the internet! This website serves as a little window into who I am, what I do and what I think about.
+
+Below you will find information about my education, work experience, publications, skillset and a little about things I do outside of work.
 
 # <i class="fa-solid fa-school"></i> Education
 As of
@@ -60,7 +61,7 @@ Professionally speaking, I have spent the last {% assign start_year = 2017 %}{% 
                 <h4>Qualcomm</h4>
                 <div class="experience-meta">Senior Engineer</div>
                 <div class="experience-meta">
-                    <span><i class="fa-solid fa-location-dot"></i> San Jose, CA</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Santa Clara, CA, USA</span>
                     <span class="meta-divider">|</span>
                     <span>Oct 2024 — Present</span>
                 </div>
@@ -75,13 +76,32 @@ Professionally speaking, I have spent the last {% assign start_year = 2017 %}{% 
     <div class="experience-item">
         <div class="experience-header">
             <div class="company-logo">
+                <img src="/public/career/qualcomm-logo.png" alt="Qualcomm">
+            </div>
+            <div class="header-text">
+                <h4>Qualcomm</h4>
+                <div class="experience-meta">Interim Engineering Intern</div>
+                <div class="experience-meta">
+                    <span><i class="fa-solid fa-location-dot"></i> Santa Clara, CA, USA</span>
+                    <span class="meta-divider">|</span>
+                    <span>May 2023 — July 2023</span>
+                </div>
+            </div>
+        </div>
+        <div class="experience-body">
+            <p>Working on Wi-Fi 8 — focusing on the AP software design and architecture.</p>
+        </div>
+    </div>  
+    <div class="experience-item">
+        <div class="experience-header">
+            <div class="company-logo">
                 <img src="/public/career/commonwealth-cyber-initiative-logo.png" alt="Commonwealth Cyber Initiative">
             </div>
             <div class="header-text">
                 <h4>Commonwealth Cyber Initiative</h4>
                 <div class="experience-meta">Graduate Researcher</div>
                 <div class="experience-meta">
-                    <span><i class="fa-solid fa-location-dot"></i> Arlington, VA</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Arlington, VA, USA</span>
                     <span class="meta-divider">|</span>
                     <span>Aug 2022 — Sept 2024</span>
                 </div>
@@ -99,16 +119,36 @@ Professionally speaking, I have spent the last {% assign start_year = 2017 %}{% 
             </div>
             <div class="header-text">
                 <h4>Qualcomm</h4>
-                <div class="experience-meta">Interim Engineering Intern</div>
+                <div class="experience-meta">Associate Engineer > Engineer > Senior Engineer</div>
                 <div class="experience-meta">
-                    <span><i class="fa-solid fa-location-dot"></i> San Jose, CA</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Bengaluru, KA, India</span>
                     <span class="meta-divider">|</span>
-                    <span>May 2023 — July 2023</span>
+                    <span>Aug 2017 — June 2022</span>
                 </div>
             </div>
         </div>
         <div class="experience-body">
             <p>Working on Wi-Fi 8 — focusing on the AP software design and architecture.</p>
+        </div>
+    </div>  
+    <div class="experience-item">
+        <div class="experience-header">
+            <div class="company-logo">
+                <img src="/public/career/iisc-logo.svg" alt="Indian Institute of Science">
+            </div>
+            <div class="header-text">
+                <h4>Indian Institute of Science</h4>
+                <div class="experience-meta">Research Intern</div>
+                <div class="experience-meta">
+                    <span><i class="fa-solid fa-location-dot"></i> Bengaluru, KA, India</span>
+                    <span class="meta-divider">|</span>
+                    <span>May 2016 — August 2016</span>
+                </div>
+            </div>
+        </div>
+        <div class="experience-body">
+            <p><u>Focus 1:</u> Study high-performance computer architecture for complex workloads</p>
+            <p><u>Focus 2:</u> Research the fingerprinting of repetitive instruction flows in program execution using machine learning techniques</p>
         </div>
     </div>  
 </div>
