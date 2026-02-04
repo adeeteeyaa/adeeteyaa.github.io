@@ -77,12 +77,14 @@ I have spent the last {% assign start_year = 2017 %}{% assign start_month = 8 %}
 </div>
 
 # Work
-<div class="scholar-stats" style="display: flex; gap: 20px; margin: 20px 0;">
-  <div>
-    <strong>Citations:</strong> <span id="cite-count">Loading...</span>
+<div class="scholar-box">
+  <div class="stat-item">
+    <span class="stat-value" id="cite-count">...</span>
+    <span class="stat-label">Citations</span>
   </div>
-  <div>
-    <strong>h-index:</strong> <span id="h-index">Loading...</span>
+  <div class="stat-item">
+    <span class="stat-value" id="h-index">...</span>
+    <span class="stat-label">h-index</span>
   </div>
 </div>
 ## Patents
@@ -163,7 +165,7 @@ When I'm not working, I like to spend a lot of time working on finding a way to 
 
 <script>
   // Replace 'adityasathis' with your actual GitHub username if different
-  const dataUrl = 'https://raw.githubusercontent.com/adityasathis/website/scholar-data/scholar/results/gs_data.json';
+  const dataUrl = 'https://github.com/adeeteeyaa/website/blob/scholar-data/scholar/results/gs_stats.json';
 
   fetch(dataUrl)
     .then(response => {
