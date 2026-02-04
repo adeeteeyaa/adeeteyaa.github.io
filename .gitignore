@@ -42,3 +42,8 @@ node_modules
 
 # WSL artifacts
 *:Zone.Identifier
+
+# Gems/Ruby artifacts
+vendor/
+.bundle/
+Gemfile.lock
