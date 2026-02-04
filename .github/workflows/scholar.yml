@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # We add the results folder located inside the scholar directory
